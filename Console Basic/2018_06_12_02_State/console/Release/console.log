@@ -1,0 +1,40 @@
+﻿  ConWrap.cpp
+F:\Console Basic\2018_06_12_02_State\ConsoleEx3\ConWrap.cpp(75,21): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+F:\Console Basic\2018_06_12_02_State\ConsoleEx3\ConWrap.cpp(161,16): warning C4838: 'int'에서 'SHORT'(으)로의 변환에는 축소 변환이 필요합니다.
+F:\Console Basic\2018_06_12_02_State\ConsoleEx3\ConWrap.cpp(161,19): warning C4838: 'int'에서 'SHORT'(으)로의 변환에는 축소 변환이 필요합니다.
+F:\Console Basic\2018_06_12_02_State\ConsoleEx3\ConWrap.cpp(164,5): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+F:\Console Basic\2018_06_12_02_State\ConsoleEx3\ConWrap.cpp(185,16): warning C4838: 'int'에서 'SHORT'(으)로의 변환에는 축소 변환이 필요합니다.
+F:\Console Basic\2018_06_12_02_State\ConsoleEx3\ConWrap.cpp(185,19): warning C4838: 'int'에서 'SHORT'(으)로의 변환에는 축소 변환이 필요합니다.
+F:\Console Basic\2018_06_12_02_State\ConsoleEx3\ConWrap.cpp(317,15): warning C4838: 'int'에서 'SHORT'(으)로의 변환에는 축소 변환이 필요합니다.
+F:\Console Basic\2018_06_12_02_State\ConsoleEx3\ConWrap.cpp(317,18): warning C4838: 'int'에서 'SHORT'(으)로의 변환에는 축소 변환이 필요합니다.
+F:\Console Basic\2018_06_12_02_State\ConsoleEx3\ConWrap.cpp(384,17): warning C4838: 'int'에서 'SHORT'(으)로의 변환에는 축소 변환이 필요합니다.
+F:\Console Basic\2018_06_12_02_State\ConsoleEx3\ConWrap.cpp(384,20): warning C4838: 'int'에서 'SHORT'(으)로의 변환에는 축소 변환이 필요합니다.
+F:\Console Basic\2018_06_12_02_State\ConsoleEx3\ConWrap.cpp(422,17): warning C4838: 'int'에서 'SHORT'(으)로의 변환에는 축소 변환이 필요합니다.
+F:\Console Basic\2018_06_12_02_State\ConsoleEx3\ConWrap.cpp(422,20): warning C4838: 'int'에서 'SHORT'(으)로의 변환에는 축소 변환이 필요합니다.
+F:\Console Basic\2018_06_12_02_State\ConsoleEx3\ConWrap.cpp(496,3): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+F:\Console Basic\2018_06_12_02_State\ConsoleEx3\ConWrap.cpp(506,15): warning C4838: 'int'에서 'SHORT'(으)로의 변환에는 축소 변환이 필요합니다.
+F:\Console Basic\2018_06_12_02_State\ConsoleEx3\ConWrap.cpp(506,18): warning C4838: 'int'에서 'SHORT'(으)로의 변환에는 축소 변환이 필요합니다.
+F:\Console Basic\2018_06_12_02_State\ConsoleEx3\ConWrap.cpp(490,3): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+F:\Console Basic\2018_06_12_02_State\ConsoleEx3\ConWrap.cpp(552,3): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+F:\Console Basic\2018_06_12_02_State\ConsoleEx3\ConWrap.cpp(545,3): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+F:\Console Basic\2018_06_12_02_State\ConsoleEx3\ConWrap.cpp(647,14): warning C4838: 'int'에서 'SHORT'(으)로의 변환에는 축소 변환이 필요합니다.
+F:\Console Basic\2018_06_12_02_State\ConsoleEx3\ConWrap.cpp(647,18): warning C4838: 'int'에서 'SHORT'(으)로의 변환에는 축소 변환이 필요합니다.
+F:\Console Basic\2018_06_12_02_State\ConsoleEx3\ConWrap.cpp(668,14): warning C4838: 'int'에서 'SHORT'(으)로의 변환에는 축소 변환이 필요합니다.
+F:\Console Basic\2018_06_12_02_State\ConsoleEx3\ConWrap.cpp(668,18): warning C4838: 'int'에서 'SHORT'(으)로의 변환에는 축소 변환이 필요합니다.
+F:\Console Basic\2018_06_12_02_State\ConsoleEx3\ConWrap.cpp(1478,21): warning C4838: 'int'에서 'SHORT'(으)로의 변환에는 축소 변환이 필요합니다.
+F:\Console Basic\2018_06_12_02_State\ConsoleEx3\ConWrap.cpp(1478,23): warning C4838: 'int'에서 'SHORT'(으)로의 변환에는 축소 변환이 필요합니다.
+F:\Console Basic\2018_06_12_02_State\ConsoleEx3\ConWrap.cpp(1504,21): warning C4838: 'int'에서 'SHORT'(으)로의 변환에는 축소 변환이 필요합니다.
+F:\Console Basic\2018_06_12_02_State\ConsoleEx3\ConWrap.cpp(1504,23): warning C4838: 'int'에서 'SHORT'(으)로의 변환에는 축소 변환이 필요합니다.
+F:\Console Basic\2018_06_12_02_State\ConsoleEx3\ConWrap.cpp(1742,22): warning C4838: 'int'에서 'SHORT'(으)로의 변환에는 축소 변환이 필요합니다.
+F:\Console Basic\2018_06_12_02_State\ConsoleEx3\ConWrap.cpp(1742,28): warning C4838: 'int'에서 'SHORT'(으)로의 변환에는 축소 변환이 필요합니다.
+F:\Console Basic\2018_06_12_02_State\ConsoleEx3\ConWrap.cpp(1743,26): warning C4838: 'int'에서 'SHORT'(으)로의 변환에는 축소 변환이 필요합니다.
+F:\Console Basic\2018_06_12_02_State\ConsoleEx3\ConWrap.cpp(1743,33): warning C4838: 'int'에서 'SHORT'(으)로의 변환에는 축소 변환이 필요합니다.
+F:\Console Basic\2018_06_12_02_State\ConsoleEx3\ConWrap.cpp(1743,45): warning C4838: 'int'에서 'SHORT'(으)로의 변환에는 축소 변환이 필요합니다.
+F:\Console Basic\2018_06_12_02_State\ConsoleEx3\ConWrap.cpp(1743,61): warning C4838: 'int'에서 'SHORT'(으)로의 변환에는 축소 변환이 필요합니다.
+  SysTimer.cpp
+  main.cpp
+  코드를 생성하고 있습니다.
+  Previous IPDB not found, fall back to full compilation.
+  All 23 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  코드를 생성했습니다.
+  console.vcxproj -> F:\Console Basic\2018_06_12_02_State\Release\console.exe
