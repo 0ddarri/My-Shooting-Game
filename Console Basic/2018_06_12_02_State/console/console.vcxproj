@@ -15,6 +15,7 @@
     <RootNamespace>console</RootNamespace>
     <Keyword>Win32Proj</Keyword>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>ShootimgGame</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
@@ -87,20 +88,49 @@
   <ItemGroup>
     <ClCompile Include="..\ConsoleEx3\ConWrap.cpp" />
     <ClCompile Include="..\ConsoleEx3\SysTimer.cpp" />
+    <ClCompile Include="boss.cpp" />
+    <ClCompile Include="BossMonser_Left.cpp" />
+    <ClCompile Include="BossMonster_Right.cpp" />
+    <ClCompile Include="bullet.cpp" />
+    <ClCompile Include="effect.cpp" />
+    <ClCompile Include="fast-monster.cpp" />
+    <ClCompile Include="GameState.cpp" />
+    <ClCompile Include="Hero.cpp" />
+    <ClCompile Include="LogoState.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="MenuState.cpp" />
+    <ClCompile Include="monster.cpp" />
+    <ClCompile Include="State.cpp" />
+    <ClCompile Include="StateCtrl.cpp" />
+    <ClCompile Include="ui.cpp" />
+    <ClCompile Include="Unit.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\ConsoleEx3\ConWrap.h" />
     <ClInclude Include="..\ConsoleEx3\ConWrapColors.h" />
     <ClInclude Include="..\ConsoleEx3\ConWrapDefines.h" />
     <ClInclude Include="..\ConsoleEx3\SysTimer.h" />
+    <ClInclude Include="boss.h" />
+    <ClInclude Include="BossMonster_Left.h" />
+    <ClInclude Include="BosSMonster_Right.h" />
+    <ClInclude Include="bullet.h" />
+    <ClInclude Include="Define.h" />
+    <ClInclude Include="effect.h" />
+    <ClInclude Include="Extern.h" />
+    <ClInclude Include="fast-monster.h" />
+    <ClInclude Include="GameState.h" />
+    <ClInclude Include="Hero.h" />
     <ClInclude Include="Include.h" />
+    <ClInclude Include="LogoState.h" />
+    <ClInclude Include="MenuState.h" />
+    <ClInclude Include="monster.h" />
+    <ClInclude Include="State.h" />
+    <ClInclude Include="StateCtrl.h" />
+    <ClInclude Include="ui.h" />
+    <ClInclude Include="Unit.h" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="..\ConsoleEx3\개발일지.txt" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="ClassDiagram.cd" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
