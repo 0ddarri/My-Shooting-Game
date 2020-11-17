@@ -15,7 +15,7 @@ Effect::Effect()
 	bcolor = BLACK;
 }
 
-
+CSound* Bulletsound = new CSound("LaserGun.mp3", false);
 
 Effect::~Effect()
 {
@@ -53,6 +53,7 @@ void Effect::Draw(char c_effect[3][3][3])
 			{
 				for (int k = 0; k < 3; k++)
 				{
+					Bulletsound->play();
 					DrawCharEx3(x + k, y + j, c_effect[index][j][k], fcolor, bcolor);
 				}
 			}

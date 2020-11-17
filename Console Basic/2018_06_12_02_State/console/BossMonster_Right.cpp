@@ -54,11 +54,11 @@ void BossMonsterRight::Create()
 	{
 		if (!isActive)
 		{
-			speed = rand() % 3 + 1;
+			//speed = rand() % 3 + 1;
 			y = rand() % 11 + 19;
-			x = 230;
+			x = 150;
 			isActive = true;
-			bossTimerRight = GetTickCount() + 400;
+			bossTimerRight = GetTickCount() + 300;
 		}
 	}
 

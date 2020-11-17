@@ -8,6 +8,9 @@
 #include <time.h>
 #define Max 300
 //------------------------------------
+
+//#include <fmod.h>
+
 #include "State.h"
 #include "StateCtrl.h"
 
@@ -25,11 +28,14 @@
 
 #include "effect.h"
 
+#include "CSound.h"
+
 #include "LogoState.h"
 #include "MenuState.h"
 #include "GameState.h"
 
 #include "Extern.h"
+
 
 //extern Effect effect[Max];
 //extern char c_Effect[3][3][3];
@@ -42,4 +48,6 @@ extern int BulletCooltime;
 extern DWORD StartTime;
 extern DWORD PlayTIme;
 extern DWORD NowTime;
+
+extern bool isQuit;
 #endif

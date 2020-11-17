@@ -116,4 +116,12 @@ void CMenuState::Update()
 		PlayTIme;
 		NowTime;
 	}
+	if (IsKey(VK_SHIFT))
+	{
+		//DrawStrEx3(42, 29, "NO SETTINGS", WHITE, BLACK);
+	}
+	if (IsKey(VK_ESCAPE))
+	{
+		isQuit = true;
+	}
 }

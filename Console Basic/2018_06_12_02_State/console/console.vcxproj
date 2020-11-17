@@ -51,6 +51,8 @@
     <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
     <IntDir>$(Configuration)\</IntDir>
     <LinkIncremental>false</LinkIncremental>
+    <IncludePath>C:\Program Files (x86)\FMOD SoundSystem\FMOD Studio API Windows\api\core\inc;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Program Files (x86)\FMOD SoundSystem\FMOD Studio API Windows\api\core\lib\x86;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
@@ -83,6 +85,7 @@
       <OptimizeReferences>true</OptimizeReferences>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <TargetMachine>MachineX86</TargetMachine>
+      <AdditionalDependencies>fmod_vc.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
@@ -92,6 +95,7 @@
     <ClCompile Include="BossMonser_Left.cpp" />
     <ClCompile Include="BossMonster_Right.cpp" />
     <ClCompile Include="bullet.cpp" />
+    <ClCompile Include="CSound.cpp" />
     <ClCompile Include="effect.cpp" />
     <ClCompile Include="fast-monster.cpp" />
     <ClCompile Include="GameState.cpp" />
@@ -114,6 +118,7 @@
     <ClInclude Include="BossMonster_Left.h" />
     <ClInclude Include="BosSMonster_Right.h" />
     <ClInclude Include="bullet.h" />
+    <ClInclude Include="CSound.h" />
     <ClInclude Include="Define.h" />
     <ClInclude Include="effect.h" />
     <ClInclude Include="Extern.h" />

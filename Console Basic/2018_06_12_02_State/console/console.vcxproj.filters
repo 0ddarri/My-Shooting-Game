@@ -37,6 +37,9 @@
     <Filter Include="Games\Boss">
       <UniqueIdentifier>{e0c3f195-82a7-4cd8-aae8-71426b05f351}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Games\Sound">
+      <UniqueIdentifier>{da573dd6-a167-4d3b-89b2-8c8936199997}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\ConsoleEx3\ConWrap.cpp">
@@ -90,6 +93,9 @@
     </ClCompile>
     <ClCompile Include="BossMonster_Right.cpp">
       <Filter>Games\Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="CSound.cpp">
+      <Filter>Games\Sound</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -152,6 +158,9 @@
     </ClInclude>
     <ClInclude Include="BosSMonster_Right.h">
       <Filter>Games\Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="CSound.h">
+      <Filter>Games\Sound</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

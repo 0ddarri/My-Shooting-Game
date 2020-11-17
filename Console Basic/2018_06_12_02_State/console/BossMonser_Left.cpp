@@ -54,9 +54,9 @@ void BossMonsterLeft::Create()
 		{
 			//speed = rand() % 3 + 1;
 			y = rand() % 11 + 19;
-			x = -100;
+			x = -30;
 			isActive = true;
-			bossTimer = GetTickCount() + 2000;
+			bossTimer = GetTickCount() + 300;
 		}
 	}
 }

@@ -20,10 +20,20 @@ CLogoState logostate;
 CMenuState menustate;
 CGameState gamestate;
 
+bool isQuit = false;
 int main()
 {
+	//mciSendString("open bgm55.mp3 type mpegvideo alias BGM", 0, 0, 0);
+	//mciSendString("play BGM", 0, 0, 0);
+	//mciSendString
+
 	InitialConsole();//초기화함수
 	SetWindowTitle("Shooting");
+
+	CSound::Init();
+	CSound* sound = new CSound("bgm55.mp3", false);
+	sound->play();
+
 
 	//new : 공간할당
 	int* val = new int[10]; // 4바이트만큼의 공간을 할당받음
@@ -37,8 +47,19 @@ int main()
 
 	stateCtrl.StateChange(E_LOGO);
 
+	
+
 	while (true)
 	{
+		if (IsKey(VK_1))
+		{
+			sound->volumeDown();
+		}
+		if (IsKey(VK_2))
+		{
+			sound->volumeUp();
+		}
+
 		CheckInput();
 		ClearScreenEx3(BLACK);
 
@@ -47,8 +68,18 @@ int main()
 
 		Flip();
 		EngineSync(30);
-	}
 
+		if (isQuit)
+		{
+			CSound::Release();
+			//exit(0);
+			break;
+		}
+		sound->Update();
+	}
+	delete sound;
+
+	CSound::Release();
 	ReleaseConsole();
 	return 0;
 }

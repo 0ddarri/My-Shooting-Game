@@ -1,2 +1,0 @@
-# Console Shooting Game
- C

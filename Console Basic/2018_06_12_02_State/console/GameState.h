@@ -14,6 +14,8 @@ public:
 	BossMonsterRight bossmonsterRight[Max];
 
 	Boss boss;
+
+	//CSound sound;
 public:
 	virtual void Start();
 

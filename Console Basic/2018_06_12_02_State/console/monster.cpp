@@ -56,7 +56,7 @@ void Monster::Create()
 			x = rand() % 120;
 			y = -1;
 			isActive = true;
-			Timer1 = GetTickCount() + 500;
+			Timer1 = GetTickCount() + 200;
 		}
 	}
 }
